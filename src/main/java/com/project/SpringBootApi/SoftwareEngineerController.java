@@ -29,7 +29,7 @@ public class SoftwareEngineerController {
         softwareEngineerService.deleteSoftwareEngineer(id);
 
     }
-    @PostMapping("{id}")
+    @PutMapping("{id}")
     public void updateSoftwareEngineer(@PathVariable Integer id, @RequestBody SoftwareEngineer softwareEngineer){
         softwareEngineerService.updateSoftwareEngineer(id, softwareEngineer);
 
