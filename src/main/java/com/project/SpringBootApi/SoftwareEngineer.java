@@ -1,9 +1,6 @@
 package com.project.SpringBootApi;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -20,14 +17,10 @@ public class SoftwareEngineer {
     private Integer id;
     private String name;
     private String techStack;
+    @Column(columnDefinition = "TEXT")
     private String learningPathRecommendation;
 
 
-    public SoftwareEngineer(Integer id, String name, String techStack) {
-        this.id = id;
-        this.name = name;
-        this.techStack = techStack;
-    }
     public SoftwareEngineer(Integer id, String name, String techStack, String learningPathRecommendation) {
         this.id = id;
         this.name = name;
