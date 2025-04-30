@@ -1,5 +1,6 @@
-package com.project.SpringBootApi;
+package com.project.SpringBootApi.services;
 
+import com.project.SpringBootApi.entities.SoftwareEngineer;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

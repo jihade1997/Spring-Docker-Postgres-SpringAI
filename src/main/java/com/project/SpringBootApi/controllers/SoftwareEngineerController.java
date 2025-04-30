@@ -1,5 +1,7 @@
-package com.project.SpringBootApi;
+package com.project.SpringBootApi.controllers;
 
+import com.project.SpringBootApi.entities.SoftwareEngineer;
+import com.project.SpringBootApi.services.SoftwareEngineerService;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
