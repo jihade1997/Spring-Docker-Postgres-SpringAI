@@ -25,16 +25,28 @@ A simple, containerized Spring Boot application that manages Software Engineer p
 # 📂 Project Structure
 
 ├── src/main/java/com/project/SpringBootApi
-│   ├── controllers            # REST controllers
-│   ├── entities               # JPA entities
-│   ├── repositories           # Spring Data JPA repositories
-│   ├── services               # Business logic layer
+
+│   ├── controllers             # REST controllers
+
+│   ├── entities                # JPA entities
+
+│   ├── repositories            # Spring Data JPA repositories
+
+│   ├── services                # Business logic layer
+
 │   └── SpringBootApiApplication.java  # Main Spring Boot class
+
 ├── src/main/resources
-│   └── application.properties # App configuration
-├── docker-compose.yml         # Docker setup
-├── httpRequest.http           # API testing (IntelliJ HTTP Client)
-└── pom.xml                    # Maven configuration
+
+│   └── application.properties  # App configuration
+
+├── docker-compose.yml          # Docker setup
+
+├── httpRequest.http            # API testing (IntelliJ HTTP Client)
+
+└── pom.xml                     # Maven configuration
+
+
 
 
 # 🚀 Getting Started
