@@ -1,4 +1,4 @@
-package com.project.SpringBootApi;
+package com.project.SpringBootApi.services;
 
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.stereotype.Service;

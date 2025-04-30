@@ -1,4 +1,4 @@
-package com.project.SpringBootApi;
+package com.project.SpringBootApi.entities;
 
 import jakarta.persistence.*;
 import lombok.Getter;
